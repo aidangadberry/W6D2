@@ -1,0 +1,37 @@
+html, head, body, h1, figure, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+li {
+  list-style: none;
+  width: 90px;
+  height: 90px;
+  border: 5px solid black;
+  background-color: gray;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+li:hover{
+  background-color: yellow;
+}
+
+li.occupied {
+  background-color: white;
+}

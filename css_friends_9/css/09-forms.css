@@ -1,0 +1,30 @@
+/* PHASE 9: Forms */
+.post-thumbnail {
+  float: left;
+}
+
+.post-form {
+  float: left;
+  background-color: #eee;
+  margin-left: 20px;
+  padding: 20px;
+  width: calc(100% - 120px);
+}
+
+.input {
+  margin-bottom: 20px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.form-input {
+  background-color: white;
+  border: 1px solid #ccc;
+  width: calc(100% - 20px);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form-input:focus {
+  border: 1px solid #0c0;
+}

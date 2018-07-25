@@ -1,0 +1,59 @@
+html, head, body, figure, ul, li, a, p {
+  margin: 0;
+  padding: 0;
+  margin: auto;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.hanoi {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.hanoi ul {
+  width: 100px;
+  list-style: none;
+}
+
+.unselected {
+  border-bottom: 5px solid black;
+}
+
+.unselected:hover{
+  border-bottom: 5px solid blue;
+}
+
+.selected {
+  border-bottom: 5px solid red;
+}
+
+.hanoi ul li {
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.disc-sm {
+  background-color: gray;
+  width: 50px;
+  border-radius: 15px;
+}
+.disc-md {
+  background-color: gray;
+  width: 75px;
+  border-radius: 15px;
+}
+.disc-lg {
+  background-color: gray;
+  width: 100px;
+  border-radius: 15px;
+}
+
+.game-over {
+  background-color: green;
+}
